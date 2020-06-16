@@ -1,0 +1,25 @@
+This is the summary of data used in following paper:
+
+Yue et al. 2020. Afforestation increases ecosystem productivity and carbon storage in China during the 2000s (submitted to AFM)
+
+All the data are simulated using YIBs vegetation model at 0.2x0.2 resolution, and consist of 8 variables including (see Yue et al. 2020):
+GPP                 Gross primary productivity
+NPP                 Net primary productivity
+NEP                 Net ecosystem productivity
+NBP                 Net biospheric Productivity
+LAI                 Leaf area index
+Ra                  Autotrophic respiration
+Rh                  Heterotrophic respiration
+Carbon_total        Total land carbon
+
+In total, 10 experiments are performed including: 
+YIBs_merra_all_c05.nc.tar.gz              Forced with year-to-year MERRA met, CO2, and LCC from MODIS C05 land cover
+YIBs_merra_all_c06.nc.tar.gz              Forced with year-to-year MERRA met, CO2, and LCC from MODIS C06 land cover
+YIBs_merra_co2_c05.nc.tar.gz              Forced with year-to-year MERRA met and LCC from MODIS C05 land cover, but 2001 CO2
+YIBs_merra_met_c05.nc.tar.gz              Forced with year-to-year MERRA met and CO2, but 2001 MODIS C05 land cover
+YIBs_merra_luc_c05.nc.tar.gz              Forced with year-to-year CO2 and LCC from MODIS C05 land cover, but 2001 MERRA met
+YIBs_wfdei_all_c05.nc.tar.gz              Forced with year-to-year WFDEI met, CO2, and LCC from MODIS C05 land cover
+YIBs_wfdei_all_c06.nc.tar.gz              Forced with year-to-year WFDEI met, CO2, and LCC from MODIS C06 land cover
+YIBs_wfdei_co2_c05.nc.tar.gz              Forced with year-to-year WFDEI met and LCC from MODIS C05 land cover, but 2001 CO2
+YIBs_wfdei_met_c05.nc.tar.gz              Forced with year-to-year WFDEI met and CO2, but 2001 MODIS C05 land cover
+YIBs_wfdei_luc_c05.nc.tar.gz              Forced with year-to-year CO2 and LCC from MODIS C05 land cover, but 2001 WFDEI met
